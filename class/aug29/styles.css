@@ -1,0 +1,30 @@
+/* Structure */
+
+body {
+    background-color: azure;
+}
+
+/* Tables */
+table {
+    border-collapse: collapse;
+}
+td {
+    border:5px solid black;
+    background-color: bisque;
+}
+th {
+    border:5px dotted black;
+    background-color: azure;
+}
+
+/* Typography/Fonts */
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(86, 5, 5);
+    color:lightpink;
+}
+
+p {
+    color:beige;
+}
