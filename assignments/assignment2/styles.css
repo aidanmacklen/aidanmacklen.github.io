@@ -1,5 +1,16 @@
+a:link {
+    padding: 10px;
+    text-decoration: none;
+    background-color: rgb(247, 219, 34);
+}
+
+a:hover, a:active {
+    background-color: rgb(255, 0, 255);
+  }
+
 table {
     border-collapse: collapse;
+    padding: auto;
 }
 td {
     border:5px solid black;
@@ -18,4 +29,9 @@ body {
 
 p {
     color:beige;
+}
+
+img {
+    padding: auto;
+    outline: auto;
 }
