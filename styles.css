@@ -1,7 +1,9 @@
 /* Structure */
+
 #main-content {
     background-color: rgb(193, 193, 255);
     padding: 5px;
+    min-height: 100vh;
 }
 
 #main-footer, #main-header {
