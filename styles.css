@@ -4,12 +4,14 @@
     background-color: rgb(193, 193, 255);
     padding: 5px;
     min-height: 100vh;
+    width: 149%;
 }
 
 #main-footer, #main-header {
     background-color:brown;
     padding: 5px;
     color:lavender;
+    width: 149%;
 }
 
 #main-header h1, #main-header h2 {
