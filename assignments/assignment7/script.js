@@ -1,4 +1,3 @@
-//Exercise 1
 let margin = 0;
 let isRunning = true;
 
@@ -10,12 +9,11 @@ const movingimg = () => {
     isRunning = !isRunning;
     runningman.style.display = isRunning;
   }
-  if (margin < 750) {
+  if (margin < 500) {
     requestAnimationFrame(movingimg);
   }
 };
 
-// Exercise 2
 const fillbar = () => {
     const amountDonated = parseInt(document.getElementById("txt-funds").value);
     const errormes = document.getElementById("error-rec");
