@@ -6,6 +6,12 @@
     text-align: center;
     padding: 10px;
 }
+#img-items {
+    padding: 20px;
+}
+#img-items img {
+    margin-right: 90px;
+}
 
 #main-nav li {
     list-style-type: none;
@@ -46,7 +52,7 @@ body {
     display: none;
 }
 
-#portfolio-li {
+#home-li {
     font-size: larger;
     font-weight: bold;
     text-decoration: underline;
@@ -64,10 +70,19 @@ body {
     width: 100%;
 }
 
+.text, .image {
+    padding: 30px;
+}
 
+.image {
+    margin:auto;
+}
 @media only screen and (min-width: 600px) {
-    #main-nav ul {
+    #main-nav ul, .flex-container {
         display: flex;
+    }
+    .image {
+        flex-wrap: wrap;
     }
     #main-nav li {
         background: none;
@@ -79,6 +94,10 @@ body {
     #nav-items {
         align-content: center;
         justify-content: space-evenly;
+    }
+    #img-items {
+        align-items: center;
+        justify-content: space-between;
     }
     #hamburger {
         display: none;
