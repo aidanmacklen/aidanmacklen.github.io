@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(53, 52, 52);
+}
+
+.col1of3 {
+    background-color: rgb(15, 180, 235);
+    padding: 5px;
+    margin: 20px;
+    border-radius: 2px;
+    width: 50%;
+    height: 45vh;
+}
+    
+.col1of3 h3 {
+    text-align: center;
+    font-size:x-large;
+}
+
+#rainbow-container {
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.rainbow-strip {
+    width: 100%;
+    height: 40px;
+}
+
+#potOfGold {
+    display: none;
+    width: 100px;
+    height: 100px;
+    background-image: url('pot-of-gold.png'); 
+    background-size: cover;
+    position: absolute;
+    top:35%;
+    right: 2.25%; 
+    z-index: 2; 
+}
+
+button {
+    color: rgb(15, 180, 235);
+    background-color: rgb(53, 52, 52);
+    padding: 5px;
+}
+    
+@media (min-width: 768px) {
+    .flex-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
