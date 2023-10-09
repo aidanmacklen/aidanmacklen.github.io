@@ -64,6 +64,21 @@ body {
     width: 100%;
 }
 
+.text {
+    display: flex;
+    align-items:center;
+}
+.text img {
+    max-width: 50%;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+.text p {
+    margin-top: 10px;
+    flex: 1;
+    padding: 5px;
+}
+
 
 @media only screen and (min-width: 600px) {
     #main-nav ul {
