@@ -29,7 +29,7 @@ body, h1, p, a {
     margin-top: 10px;
 }
 
-/* Media query for larger screens */
+/* Media query */
 @media (min-width: 768px) {
     .container {
         display: flex;
