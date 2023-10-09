@@ -64,10 +64,19 @@ body {
     width: 100%;
 }
 
+.text, .image {
+    padding: 30px;
+}
 
+.image {
+    margin:auto;
+}
 @media only screen and (min-width: 600px) {
-    #main-nav ul {
+    #main-nav ul, .flex-container {
         display: flex;
+    }
+    .image {
+        flex-wrap: wrap;
     }
     #main-nav li {
         background: none;
