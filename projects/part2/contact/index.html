@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!--Aidan Macklen, Project-->
+
+<head>
+    <title>Contact</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header id="main-header">
+        <nav id="main-nav">
+            <div id="hamburger">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+            <ul id="nav-items" class="hide-small">
+                <li><a href="https://aidanmacklen.github.io\projects\part1\home\index.html">Home</a></li>
+                <li><a href="https://aidanmacklen.github.io\projects\part1\portfolio\index.html">Portfolio</a></li>
+                <li><a href="https://aidanmacklen.github.io\projects\part1\about\index.html">About</a></li>
+                <li><a href="https://aidanmacklen.github.io\projects\part1\skills\index.html">Skills</a></li>
+                <li id="contact-li"><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <hr>
+
+    <main id="main-content">
+        <div class="contact-form">
+            <h2>Contact Me</h2>
+            <form id="contact-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+    
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+    
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+    
+                <button type="submit" id="submit-button">Submit</button>
+                <p id="confirmation-message" class="hidden">Submitted</p>
+            </form>
+        </div>
+    </main>
+    
+    
+    <footer id="main-footer">
+        <p>&copy; aidanmacklen.github.io</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
