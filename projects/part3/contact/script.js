@@ -2,14 +2,18 @@ const toggleNav = () => {
     document.getElementById("nav-items").classList.toggle("hide-small");
 };
 
+window.onload = () => {
+    document.getElementById("hamburger").onclick = toggleNav;
+};
+
 const showEmailResult = async (e) => {
     e.preventDefault();
     const result = document.getElementById("result");
     let response = await getEmailResult();
     if (response.status == 200) {
-      result.innerHTML = "Email Successfully Sent";
+      result.innerHTML = "Email Successfully Sent!";
     } else {
-      result.innerHTML = "Sorry, your email was not sent.";
+      result.innerHTML = "Your email was not sent.";
     }
   };
   
@@ -34,15 +38,8 @@ const showEmailResult = async (e) => {
     } catch (error) {
       console.log(error);
       document.getElementById("result").innerHTML =
-        "Sorry your email couldn't be sent";
+        "Your email could not be sent";
     }
   };
   
   document.getElementById("contact-form").onsubmit = showEmailResult;
-
-//document.getElementById("contact-form").addEventListener("submit", showEmailResult);
-
-
-window.onload = () => {
-    document.getElementById("hamburger").onclick = toggleNav;
-};

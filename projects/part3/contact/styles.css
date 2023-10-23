@@ -72,7 +72,7 @@ h2 {
     width: 100%;
 }
 
-.class-contact-form {
+.class-contactform {
     text-align: center;
     margin: auto;
     max-width: 400px;
@@ -99,26 +99,26 @@ h2 {
     width: 100%;
 }
 
-#submit-button {
-    background-color: rgb(54, 54, 54);
-    color: white;
-    border: none;
-    border-radius: 5px;
-    padding: 10px;
-    cursor: pointer;
-}
-
-#submit-button:hover {
-    background-color:grey;
-}
-
-#confirmation-message {
-    color: green;
+#result {
     font-weight: bold;
-    display: none;
+    color: black;
 }
 
+button {
+    padding: 5px;
+    padding-right: 20px;
+    padding-left: 20px;
+    border: 3px solid rgba(0, 0, 0, 0.116);
+    background-color: lightgray;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+}
 
+button:hover {
+    background-color: rgb(53, 53, 53);
+    color: white;
+}
 
 @media only screen and (min-width: 600px) {
     #main-nav ul {
