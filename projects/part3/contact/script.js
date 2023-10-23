@@ -37,8 +37,7 @@ const showEmailResult = async (e) => {
       return response;
     } catch (error) {
       console.log(error);
-      document.getElementById("result").innerHTML =
-        "Your email could not be sent";
+      document.getElementById("result").innerHTML = "Your email could not be sent";
     }
   };
   
