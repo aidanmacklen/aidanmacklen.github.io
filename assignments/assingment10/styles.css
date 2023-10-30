@@ -1,0 +1,37 @@
+/* Structure */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: cornflowerblue;
+}
+  
+h1 {
+    text-align: center;
+    color: rgb(37, 57, 94)
+}
+
+.movie {
+    background-color: rgb(68, 105, 173);
+    padding: 10px;
+    border-radius: 5px;
+    margin: 5px;
+    margin-bottom: 20px;
+    box-shadow: 5px 5px 10px rgb(37, 57, 94);
+}
+  
+.movie a {
+    color: rgb(22, 34, 56);
+    font-size: 1.25em;
+    text-decoration: none;
+}
+  
+  /* Larger Resolutions */
+@media (min-width: 900px) {
+    #movies-section {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .movie {
+        flex: 100%;
+    }
+}
