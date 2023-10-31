@@ -73,15 +73,25 @@ body {
     align-items:center;
 }
 
-.text img {
-    max-width: 50%;
-    margin-right: 20px;
-    margin-top: 20px;
-}
-
 .text p {
     margin-top: 10px;
     flex: 1;
+    padding: 5px;
+}
+
+.text {
+    display: flex;
+    align-items: center;
+}
+
+#img-container {
+    text-align: center;
+    margin: 20px 0;
+}
+
+#img-container img {
+    height: 700px;
+    width: 500px;
     padding: 5px;
 }
 
