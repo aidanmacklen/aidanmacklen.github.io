@@ -72,16 +72,21 @@ body {
     padding: 30px;
 }
 
-.image {
+#image {
     margin:auto;
     padding-right: 10px;
+}
+
+#image iframe {
+    height: 700px;
+    width: 600px;
 }
 
 @media only screen and (min-width: 600px) {
     #main-nav ul, .flex-container {
         display: flex;
     }
-    .image {
+    #image {
         flex-wrap: wrap;
     }
     #main-nav li {
