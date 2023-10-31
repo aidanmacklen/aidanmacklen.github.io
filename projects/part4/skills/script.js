@@ -15,11 +15,11 @@ const displayImage = async () => {
 
         const imageFilename = data.iframe;
 
-        const img = document.createElement("iframe");
+        const iframe = document.createElement("iframe");
         iframe.src = imageFilename;
 
         const imgContainer = document.getElementById("image");
-        imgContainer.appendChild(img);
+        imgContainer.appendChild(iframe);
     } catch (error) {
         console.error(error);
     }
