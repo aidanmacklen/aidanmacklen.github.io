@@ -13,7 +13,7 @@ const displayImage = async () => {
         const response = await fetch(jsonDataUrl);
         const data = await response.json();
 
-        const imageFilename = data.image-home;
+        const imageFilename = data.imagehome;
 
         const img = document.createElement("img");
         img.src = imageFilename;
