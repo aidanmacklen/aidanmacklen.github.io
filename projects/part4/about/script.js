@@ -10,7 +10,7 @@ window.onload = () => {
 
 // Function to fetch and display the image from the JSON file
 const displayImage = async () => {
-    const jsonDataUrl = "data.json";
+    const jsonDataUrl = "https://aidanmacklen.github.io/json/data.json";
 
     try {
         const response = await fetch(jsonDataUrl);
