@@ -15,6 +15,18 @@ h1 {
     margin: 5px;
     margin-bottom: 20px;
     box-shadow: 5px 5px 10px rgb(37, 57, 94);
+    overflow: hidden;
+}
+
+.movie img {
+    transition: transform 0.3s;
+    width: 300px;
+    height: 300px;
+    margin-left: 1%;
+}
+
+.movie:hover img {
+    transform: scale(1.5); 
 }
   
 .movie a {

@@ -43,7 +43,7 @@ const getMovieItem = (movie) => {
     movieSection.append(pDescription);
 
     const img = document.createElement("img");
-    img.src = `https://portiaportia.github.io/json/images/${movie.img}`;
+    img.src = `https://portiaportia.github.io/json/${movie.img}`;
     movieSection.appendChild(img);
 
     movieSection.append(getMovieActors(movie));
