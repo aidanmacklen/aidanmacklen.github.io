@@ -72,7 +72,9 @@ body {
     padding: 30px;
 }
 
-.image {
+#image {
+    height: 600px;
+    width: 600px;
     margin:auto;
     padding: 10px;
 }
@@ -82,7 +84,7 @@ body {
     #main-nav ul, .flex-container {
         display: flex;
     }
-    .image {
+    #image {
         flex-wrap: wrap;
     }
     #main-nav li {
