@@ -22,10 +22,6 @@ const getMovieItem = (movie) => {
     const movieSection = document.createElement("section");
     movieSection.classList.add("movie");
 
-    const img = document.createElement("img");
-    img.src = movie.img;
-    movieSection.appendChild(img);
-
     const h3 = document.createElement("h3");
     h3.innerText = movie.title;
     movieSection.append(h3);
@@ -45,6 +41,10 @@ const getMovieItem = (movie) => {
     const pDescription = document.createElement("p");
     pDescription.textContent = movie.description;
     movieSection.append(pDescription);
+
+    const img = document.createElement("img");
+    img.src = `https://portiaportia.github.io/json/images/${movie.img}`;
+    movieSection.appendChild(img);
 
     movieSection.append(getMovieActors(movie));
 
