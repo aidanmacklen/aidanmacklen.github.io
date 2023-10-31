@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!--Aidan Macklen, Project-->
+
+<head>
+    <title>Contact</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header id="main-header">
+        <nav id="main-nav">
+            <div id="hamburger">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+            <ul id="nav-items" class="hide-small">
+                <li><a href="https://aidanmacklen.github.io\projects\part3\home\index.html">Home</a></li>
+                <li><a href="https://aidanmacklen.github.io\projects\part3\portfolio\index.html">Portfolio</a></li>
+                <li><a href="https://aidanmacklen.github.io\projects\part3\about\index.html">About</a></li>
+                <li><a href="https://aidanmacklen.github.io\projects\part3\skills\index.html">Skills</a></li>
+                <li id="interactive-li"><a href="#interactive">Interactive</a></li>
+                <li><a href="https://aidanmacklen.github.io\projects\part3\contact\index.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <hr>
+
+    <main id="main-content">
+      <div class="container">
+          <h1>Description:</h1>
+          <p>This is an interactive page to exemplify the skills I've learned along the way combined with something I'm passionate about.</p>
+          <h2>Add Jewelry</h2>
+          <form id="jewelry-form">
+              <label for="material">Material:</label>
+              <input type="text" id="material" name="material" required>
+
+              <label for="size">Size:</label>
+              <input type="text" id="size" name="size" required>
+
+              <label for="gem">Gem:</label>
+              <input type="text" id="gem" name="gem" required>
+
+              <button type="submit">Add Jewelry</button>
+          </form>
+          <div id="jewelry-entries" class="hidden">
+              <h3>Jewelry Box</h3>
+              <ul id="jewelry-list"></ul>
+          </div>
+        </div>
+    </main>
+    <footer id="main-footer">
+        <p>&copy; aidanmacklen.github.io</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,144 @@
+/* Main Navigation */
+#main-nav ul {
+    padding-left: 0px;
+}
+#nav-items {
+    text-align: center;
+    padding: 10px;
+}
+
+#main-nav li {
+    list-style-type: none;
+    padding: 5px;
+}
+
+#main-nav a {
+    text-decoration: none;
+    color: black;
+}
+
+#main-nav li:hover {
+    background-color: lightgrey;
+}
+
+/* Typography */
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: ivory;
+}
+
+h2 {
+    border-bottom: 1px solid rgb(54, 54, 54);;
+}
+
+#hamburger div {
+    width: 35px;
+    height: 5px;
+    background-color: black;
+    margin: 6px 0;
+}
+
+#hamburger {
+    padding:5px;
+}
+
+.hide-small {
+    display: none;
+}
+
+.hidden {
+    display: none;
+}
+
+#interactive-li {
+    font-size: larger;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+#main-footer {
+    background-color: rgb(198, 198, 202);
+    padding: 5px;
+    text-align: center;
+}
+
+#main-header {
+    background-color: lightgray;
+}
+
+#main-content {
+    padding: 5px;
+    min-height: 100vh;
+    width: 100%;
+}
+
+.class-contactform {
+    text-align: center;
+    margin: auto;
+    max-width: 400px;
+    padding: 20px;
+}
+
+#contact-form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 25%;
+}
+
+#contact-form label {
+    text-align: left;
+    margin-bottom: 5px;
+}
+
+#contact-form input,
+#contact-form textarea {
+    margin-bottom: 10px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+}
+
+#result {
+    font-weight: bold;
+    color: black;
+}
+
+button {
+    padding: 5px;
+    padding-right: 20px;
+    padding-left: 20px;
+    border: 3px solid rgba(0, 0, 0, 0.116);
+    background-color: lightgray;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+}
+
+button:hover {
+    background-color: rgb(53, 53, 53);
+    color: white;
+}
+
+@media only screen and (min-width: 600px) {
+    #main-nav ul {
+        display: flex;
+    }
+    #main-nav li {
+        background: none;
+        border: none;
+    }
+    #main-nav li:hover {
+        background: none;
+    }
+    #nav-items {
+        align-content: center;
+        justify-content: space-evenly;
+    }
+    #hamburger {
+        display: none;
+    }
+    .hide-small {
+        display: block;
+    }
+}

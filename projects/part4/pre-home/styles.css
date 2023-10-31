@@ -1,0 +1,39 @@
+body, h1, p, a {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    background-image: url('prehomebackground.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content {
+    text-align: center;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.button {
+    display: inline-block;
+    background-color: rgba(70, 70, 70, 0.514);
+    color: black;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+/* Media query */
+@media (min-width: 768px) {
+    .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
