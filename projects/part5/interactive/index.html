@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <header id="main-header">
+        <nav id="main-nav">
+            <div id="hamburger">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+            <ul id="nav-items" class="hide-small">
+                <li><a href="https://aidanmacklen.github.io\projects\part5\home\index.html">Home</a></li>
+                <li><a href="https://aidanmacklen.github.io\projects\part5\portfolio\index.html">Portfolio</a></li>
+                <li><a href="https://aidanmacklen.github.io\projects\part5\about\index.html">About</a></li>
+                <li><a href="https://aidanmacklen.github.io\projects\part5\skills\index.html">Skills</a></li>
+                <li id="interactive-li"><a href="#interactive">Interactive</a></li>
+                <li><a href="https://aidanmacklen.github.io\projects\part5\contact\index.html">Contact</a></li>
+            </ul>
+        </nav>
+        <hr>
+    </header>
+    <h1>Description</h1>
+    <p id="text-align">This is an interactive page to exemplify the skills I've learned along the way combined with something I'm passionate about.</p>
+    <p id="text-align">Go ahead and add your favorite piece of jewelry!</p>
+    <hr>
+    <a href="#" id="addl">Add Jewelry</a>
+
+    <main id="main-content">
+        <div class="columns two-columns">
+            <div id="jewel-list" class="columns"></div>
+            <div id="jewel-information-column">
+                <h2>Information</h2>
+                <hr>
+
+                <div id="jewel-information"></div>
+            </div>
+        </div>
+        <div id="ae-jewel-container" class="box-text hide">
+
+            <h3 id="ae-title">Jewel</h3>
+            <form id="ae-jewel-form" method="post">
+                <input type="hidden" name="_id" value="-1" />
+                <p>
+                    <label for="material">Jewel Material:</label>
+                    <input type="text" id="material" name="material" required />
+                </p>
+                <p>
+                    <label for="size">Size:</label>
+                    <input type="text" id="size" name="size" required />
+                </p>
+                <p>
+                    <label for="gem">Gem:</label>
+                    <input type="text" id="gem" name="gem" required />
+                </p>
+                <p>
+                    <label for="img">Upload Image:</label>
+                    <input type="file" id="img" name="img" />
+                </p>
+                <p>
+                    <button type="submit">Submit</button>
+                </p>
+            </form>
+        </div>
+    </main>
+    <footer id="main-footer">
+        <p>&copy; aidanmacklen.github.io</p>
+    </footer>
+</body>
+
+</html>
