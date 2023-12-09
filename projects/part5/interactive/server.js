@@ -8,7 +8,7 @@ const cors = require("cors");
 app.use(cors());
 const mongoose = require("mongoose");
 
-const upload = multer({ dest: __dirname + "/public/images" }); 
+const upload = multer({ dest: __dirname + "/../../public/images" });
 
 mongoose
     .connect("mongodb+srv://aidancmacklen:Coolshoes107-@firstcluster.vvj7bt0.mongodb.net/?retryWrites=true&w=majority")
@@ -24,7 +24,7 @@ const jewelSchema = new mongoose.Schema({
 const Jewel = mongoose.model("Jewel", jewelSchema);
 
 app.get("/", (req, res) => {
-    res.sendFile(__dirname + "/index.html"); 
+    res.sendFile(__dirname + "/../../index.html");
 });
 
 app.get("/api/jewels", (req, res) => {
